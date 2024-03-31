@@ -12,6 +12,8 @@ if __name__ == '__main__':
     
     for i in results:
         print (i)
+    # for f in concurrent.futures.as_completed(results):
+    #     print(f.result())    
  
 finish = time.perf_counter()
 
