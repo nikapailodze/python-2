@@ -38,5 +38,7 @@ first, last, pay = emp_str_1.split('-')
 new_emp_1 = Employee.from_string(emp_str_1)
 print(new_emp_1.email)
 print(new_emp_1.pay)
-my_date = datetime.date(2016, 7, 11)
+my_date = datetime.date(2024, 4, 1)
 print(Employee.is_workday(my_date))
+
+print(Employee.num_of_emps)
