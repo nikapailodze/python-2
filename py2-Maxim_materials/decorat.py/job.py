@@ -39,11 +39,15 @@ fr_1.fullname="nuki koshkelishvili"
 fr_1.raise_age()
 fr_2.raise_age()
 
-print(fr_2.fullname)
-print(fr_1.fullname)
-print(Friends.num_of_friends)
+# print(fr_2.fullname)
+# print(fr_1.fullname)
+# print(Friends.num_of_friends)
 
 Friends.rise_set_age(100)
 fr_2.raise_age()
 
-print(fr_2.fullname)
+# print(fr_2.fullname)
+
+
+# print(fr_2.fullname)
+# print(fr_1.fullname)
